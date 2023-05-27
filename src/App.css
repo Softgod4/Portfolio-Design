@@ -1,0 +1,71 @@
+* {
+  font-family: 'DM Mono', monospace;
+}
+
+body {
+  margin: 0 0 0 0;
+}
+.header {
+  z-index: 5;
+  display: flex;
+  width: auto;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 26px;
+}
+#Logo {
+  margin-left: 346px;
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111C24;
+  text-align: center;
+}
+.LeftLinks a {
+  text-decoration: none;
+  text-align: left;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111C24;
+  margin-left: 60px;
+}
+.ContactUs a{
+  margin-left: 503px;
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #111C24;
+  text-align: center;
+  text-decoration: none;
+}
+.Hero {
+  margin-top: 144px;
+  width: 100%;
+}
+.HeroContent {
+  display: flex;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.HeroContent h1 {  
+  width: 685px;
+  height: 297px;
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 90px;
+  line-height: 110%;
+  color: #111C24;
+}
+.HeroContent p {
+  position: relative;
+  top: 251px;
+  height: 90px;
+  margin-left: 30px;
+}
