@@ -20,7 +20,11 @@ function App() {
         <div className="HeroContent">
           <h1>Hello!<br/> Nice to<br/> meet you!</h1>
           <p href="">We are thrilled to have you here on our Hiro Block, the gateway to an <br/>extraordinary digital journey. Allow us to introduce ourselves as pioneers in the <br/>realm of cutting-edge technology and transformative solutions!</p>
+          <img src="src/img/Btn.png" alt="" href=''/>
         </div>
+      </div>
+      <div className="Masterprice">
+        <h2>Kickstart your Masterpiece! ✹ Kickstart your Masterpiece! ✹ Kickstart your Masterpiece! ✹ Kickstart your Masterpiece! ✹ Kickstart your Masterpiece! ✹ Kickstart your Masterpiece!</h2>
       </div>
     </>
   )

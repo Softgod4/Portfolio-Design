@@ -1,12 +1,28 @@
 * {
   font-family: 'DM Mono', monospace;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #CAFC01;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 
 body {
   margin: 0 0 0 0;
+  overflow-x: hidden;
 }
 .header {
-  z-index: 5;
+  z-index: 999;
   display: flex;
   width: auto;
   margin-left: 60px;
@@ -68,4 +84,44 @@ body {
   top: 251px;
   height: 90px;
   margin-left: 30px;
+}
+.HeroContent img {
+  top: 61px;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  right: 680px;
+  cursor: pointer;
+}
+.Masterprice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  width: 100%;
+  height: 137px;
+  background: #CAFC01;
+  z-index: 1;
+}
+.Masterprice h2 {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 72px;
+  color: #111C24;
+  z-index: 2;
+  white-space: nowrap;
+  animation: margin 8s ease-out 0s alternate infinite none running;
+}
+@keyframes margin {
+  0% { 
+    margin-left: 50px;
+  }
+  50% {
+    margin-left: 500vh;
+  }
+  100% {
+    margin-left: 50px;
+  }
 }
