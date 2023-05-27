@@ -26,6 +26,12 @@ function App() {
       <div className="Masterprice">
         <h2>Kickstart your Masterpiece! ✹ Kickstart your Masterpiece! ✹ Kickstart your Masterpiece! ✹ Kickstart your Masterpiece! ✹ Kickstart your Masterpiece! ✹ Kickstart your Masterpiece!</h2>
       </div>
+      <div className="AboutUsImage">
+        <img src="src/img/7section.png" alt="" />
+      </div>
+      <div className="AboutUs">
+        <h2>About Us ✹ About Us ✹ About Us ✹ About Us ✹ About Us ✹ About Us ✹ About Us ✹ About Us</h2>
+      </div>
     </>
   )
 }

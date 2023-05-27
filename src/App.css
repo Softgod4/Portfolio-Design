@@ -22,12 +22,15 @@ body {
   overflow-x: hidden;
 }
 .header {
+  position: fixed;
   z-index: 999;
   display: flex;
   width: auto;
   margin-left: 60px;
   margin-right: 60px;
-  margin-top: 26px;
+  margin-top: -80px;
+  background-color: #ffffff;
+  border-radius: 15px;
 }
 #Logo {
   margin-left: 346px;
@@ -78,12 +81,23 @@ body {
   font-size: 90px;
   line-height: 110%;
   color: #111C24;
+  animation: hero1 2s;
+  white-space: nowrap;
+}
+@keyframes hero1 {
+  0% {
+    margin-left: 180px;
+  }
+  100% {
+
+  }
 }
 .HeroContent p {
   position: relative;
   top: 251px;
   height: 90px;
   margin-left: 30px;
+  white-space: nowrap;
 }
 .HeroContent img {
   top: 61px;
@@ -92,6 +106,12 @@ body {
   height: 50px;
   right: 680px;
   cursor: pointer;
+  -webkit-transition: -webkit-transform 2s;
+  transition: transform 2s;
+}
+.HeroContent img:hover {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 .Masterprice {
   display: flex;
@@ -112,16 +132,52 @@ body {
   color: #111C24;
   z-index: 2;
   white-space: nowrap;
-  animation: margin 8s ease-out 0s alternate infinite none running;
+  animation: margin 30s ease-out 0s alternate infinite none running;
 }
 @keyframes margin {
   0% { 
-    margin-left: 50px;
   }
   50% {
     margin-left: 500vh;
   }
   100% {
     margin-left: 50px;
+  }
+}
+.AboutUsImage {
+  height: 600px;
+}
+.AboutUsImage img {
+  width: 100%;
+}
+.AboutUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33px;
+  width: 100%;
+  height: 137px;
+  background: #111C24;
+  z-index: 1;
+}
+.AboutUs h2 {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 72px;
+  color: #ffffff;
+  z-index: 2;
+  white-space: nowrap;
+  animation: margin2 30s ease-out 0s alternate infinite none running;
+}
+@keyframes margin2 {
+  0% { 
+  }
+  50% {
+    margin-left: 200vh;
+  }
+  100% {
+    margin-left: 10px;
   }
 }
