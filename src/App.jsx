@@ -63,7 +63,61 @@ function App() {
         </div>
       </div>
       <div className="MeetOurTeam">
-        
+        <div className="OurTeamText">
+          <h2>Meet our team</h2>
+          <p>Our team is built on a foundation of collaborative excellence, <br/>combining diverse talents and expertise to deliver outstanding results</p>
+        </div>
+        <div className="OurTeamImg">
+          <div className="OurTeamPort1">
+            <img src="src/img/photo.png" alt="" />
+            <h2>JASON MOMOA</h2>
+          </div>
+          <div className="OurTeamPort1">
+            <img src="src/img/photo2.png" alt="" />
+            <h2>JASON MOMOA</h2>
+          </div>
+          <div className="OurTeamPort1">
+            <img src="src/img/photo3.png" alt="" />
+            <h2>JASON MOMOA</h2>
+          </div>
+          <div className="OurTeamPort1">
+            <img src="src/img/photo4.png" alt="" />
+            <h2>JASON MOMOA</h2>
+          </div>
+        </div>
+      </div>
+      <div className="Welcome">
+        <h1>Welcome! Here imagination meets <br/>innovation, and your aspirations find <br/>their ultimate expression!</h1>
+      </div>
+      <div className="EndMedia">
+        <div className="EndSocialMedia">
+          <p>SOCIAL MEDIA</p>
+
+          <div className="EndHref">
+            <div className="Href1">
+              <a href="">blog</a>
+              <a href="">Twitter</a> 
+            </div>
+    
+            <div className="Href2">
+              <a href="">Bento</a>
+              <a href="">Linkedin</a>
+            </div>
+
+          </div>
+        </div>
+        <div className="EndContacts">
+          <p>CONTACTS</p>
+          <div className="EndDesigner">
+            <a href="">Viacheslav Mykhailov<br/> Product Designer / Design Manager <br/>slavik21.ua@gmail.com</a>
+          </div>
+        </div>
+        <div className="EndCopyright">
+          <p>COPYRIGHT</p>
+          <div className="EndDesignee">
+            <a href="">© 2023 Designee. Some rights <br/>reserved. Made with ❤️ by <br/>Viacheslav #fr0st2o11.</a>
+          </div>
+        </div>
       </div>
     </>
   )

@@ -241,3 +241,131 @@ body {
   height: 615px;
   background: #111C24;
 }
+.OurTeamText {
+  display: flex;
+}
+.OurTeamText h2 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 72px;
+  color: #F9FAFC;
+}
+.OurTeamText p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #F9FAFC;
+  position: relative;
+  top: 35px;
+  left: 500px;
+}
+.OurTeamImg {
+  display: flex;
+}
+.OurTeamImg img {
+  margin-right: 50px;
+}
+.OurTeamPort1 h2 {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+  text-align: center;
+  margin-right: 50px;
+}
+.Welcome h1 {
+  height: 216px;
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 72px;
+  color: #111C24;
+  margin-top: 60px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.EndMedia {
+  display: flex;
+  gap: 60px;
+  width: 100%;
+  height: 243px;
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 150px;
+}
+.Href1 a{
+  display: block;
+}
+.Href2 a {
+  display: block;
+  margin-left: 104px;
+}
+.EndSocialMedia {
+  margin-top: 106px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #111C24;
+}
+.EndHref {
+  display: flex;
+}
+.EndHref a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  text-decoration-line: underline;
+
+  color: #111C24;
+}
+.EndSocialMedia p {
+  margin-bottom: 30px;
+}
+.EndContacts {
+  margin-left: 86px;
+  margin-top: 106px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #111C24;
+}
+.EndDesigner a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  color: #111C24;
+}
+.EndCopyright {
+  margin-left: 86px;
+  margin-top: 106px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #111C24;
+}
+.EndDesignee a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  color: #111C24;
+}
