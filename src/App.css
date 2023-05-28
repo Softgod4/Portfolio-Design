@@ -22,7 +22,6 @@ body {
   overflow-x: hidden;
 }
 .header {
-  position: fixed;
   z-index: 999;
   display: flex;
   width: auto;
@@ -180,4 +179,65 @@ body {
   100% {
     margin-left: 10px;
   }
+}
+.Innovative {
+  display: flex;
+  margin-left: 150px;
+  width: 100%;
+}
+.InnovativeText1 h1 {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: #111C24;
+}
+.InnovativeText1 {
+  animation: margin3 2s ease-out 0s;
+}
+@keyframes margin3 {
+  0% { 
+    margin-right: 180px;
+  }
+  100% {
+    margin-right: 0px;
+  }
+}
+
+.InnovativeText1 h2 {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #111C24;
+}
+.InnovativeText1 p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #111C24;
+}
+.InnovativeText1 {
+  margin-top: 85px;
+  margin-bottom: 85px;
+}
+.InnovativeText1:last-child {
+  margin-bottom: 0px;
+}
+.InnovativeImg {
+  position: relative;
+  left: 535px;
+  height: 852px
+}
+.MeetOurTeam {
+  padding: 60px;
+  gap: 60px;
+  width: 1440px;
+  height: 615px;
+  background: #111C24;
 }

@@ -1,8 +1,16 @@
-import { useState } from 'react'
+import { useState, useEffect} from 'react'
 import './App.css'
+import WOW from 'wowjs';
+import 'wowjs/css/libs/animate.css';
+import 'animate.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  useEffect(() => {
+    new WOW.WOW({
+      live: false
+    }).init();
+  }, [])
 
   return (
     <>
@@ -32,8 +40,32 @@ function App() {
       <div className="AboutUs">
         <h2>About Us ✹ About Us ✹ About Us ✹ About Us ✹ About Us ✹ About Us ✹ About Us ✹ About Us</h2>
       </div>
+      <div className="Innovative">   
+        <div className="InnovativeText">
+          <div className="InnovativeText1">
+            <h1>01</h1>
+            <h2>INNOVATIVE MINDSET</h2>
+            <p>Our team thrives on an innovative mindset, constantly <br/>seeking new ideas and pushing boundaries</p>
+          </div>
+          <div className="InnovativeText1">
+            <h1>02</h1>
+            <h1>Collaborative Approach</h1>
+            <p>By fostering a collaborative environment, we ensure <br/>that your insights and goals are integrated into our work</p>
+          </div>
+          <div className="InnovativeText1">
+            <h1>03</h1>
+            <h2>Expertise and Experience</h2>
+            <p>Our team comprises seasoned professionals with <br/>extensive expertise and industry experience</p>
+          </div>
+        </div>
+        <div className="InnovativeImg">
+          <img src="src/img/8section.png" alt="" />
+        </div>
+      </div>
+      <div className="MeetOurTeam">
+        
+      </div>
     </>
   )
 }
-
 export default App
